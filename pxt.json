@@ -1,24 +1,25 @@
 {
-    "name": "Untitled",
-    "description": "",
+    "name": "gamePad",
+    "version": "1.1.0",
+    "description": "This library is DFRobot gamer:bit provides the game handle control function.",
+    "license": "GNU",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*",
-        "gamePad": "github:dfrobot/pxt-gamepad#v1.1.0",
-        "pxt-up": "github:fhl228/pxt-up#master",
-        "pxt-345": "github:fhl228/pxt-345#master"
+        "radio": "*"
     },
     "files": [
-        "main.blocks",
+        "README.md",
+        "gamerpad.cpp",
         "main.ts",
-        "README.md"
+        "_locales/zh-cn/gamePad-strings.json",
+        "_locales/zh-tw/gamePad-strings.json"
     ],
     "testFiles": [
         "test.ts"
     ],
+    "public": false,
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
