@@ -18,18 +18,22 @@
  */
 //%
 enum GamerBitPin {
-    //% block="X button"
+    //% block="UP"
     P1 = DAL.MICROBIT_ID_IO_P1,
-    //% block="Y button"
     P2 = DAL.MICROBIT_ID_IO_P2,
-    //% block="D-PAD up"
-    P8 = DAL.MICROBIT_ID_IO_P8,
-    //% block="D-PAD down"
-    P13 = DAL.MICROBIT_ID_IO_P13,
-    //% block="D-PAD left"
-    P14 = DAL.MICROBIT_ID_IO_P14,
-    //% block="D-PAD right"
+    //% block="DOWN"
+    P1 = DAL.MICROBIT_ID_IO_P1,
+    P2 = DAL.MICROBIT_ID_IO_P2,
+    //% block="LEFT"
+    P1 = DAL.MICROBIT_ID_IO_P1,
+    P2 = DAL.MICROBIT_ID_IO_P2,
+    //% block="RIGHT"
+    P1 = DAL.MICROBIT_ID_IO_P1,
+    P2 = DAL.MICROBIT_ID_IO_P2,
+    //% block="ON"
     P15 = DAL.MICROBIT_ID_IO_P15,
+    //% block="OFF"
+    P13 = DAL.MICROBIT_ID_IO_P13,
 }
 
 /**
@@ -38,11 +42,9 @@ enum GamerBitPin {
 //%
 enum GamerBitEvent {
     //% block="pressed"
-    Down = DAL.MICROBIT_BUTTON_EVT_DOWN,
+    Down = DAL.MICROBIT_PIN_EVT_RISE,
     //% block="released"
-    Up = DAL.MICROBIT_BUTTON_EVT_UP,
-    //% block="click"
-    Click = DAL.MICROBIT_BUTTON_EVT_CLICK,
+    Up = DAL.MICROBIT_PIN_EVT_UP,
 }
 
 /**
