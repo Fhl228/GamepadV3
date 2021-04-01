@@ -1,0 +1,24 @@
+{
+    "name": "Untitled",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "gamePad": "github:dfrobot/pxt-gamepad#v1.1.0",
+        "pxt-up": "github:fhl228/pxt-up#master",
+        "pxt-345": "github:fhl228/pxt-345#master"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
